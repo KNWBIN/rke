@@ -1,6 +1,8 @@
 name: Go
 
 on:
+  watch:
+    types: started
   pull_request:
     branches: [ v1.2.8 ]
 
