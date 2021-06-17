@@ -5,6 +5,8 @@ on:
     types: started
   push:
     tags: [ v1.2.8 ]
+  pull_request:
+    tags: [ v1.2.8 ]
 
 jobs:
 
